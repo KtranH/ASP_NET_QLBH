@@ -1,0 +1,106 @@
+﻿@using PagedList
+@using PagedList.Mvc
+@model IPagedList<GTX_STORE_WEB.Models.SANPHAM>
+
+<main id="main" class="main">
+    <div id="productList">
+        <div class="pagetitle">
+            <h1>Tìm sản phẩm</h1>
+            <nav>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="@Url.Action("Index","Home")">Home</a></li>
+                    <li class="breadcrumb-item active">Tìm sản phẩm</li>
+                </ol>
+            </nav>
+        </div><!-- End Page Title -->
+        <div id="productList">
+            <section class="section dashboard" style="display: flex; justify-content: center; flex-wrap: wrap; background-color: white; padding: 20px; border-radius: 20px; box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1); margin-bottom:20px;">
+                @foreach (var item in Model)
+                {
+                    <div class="card" style="width: 18rem; margin-bottom: 60px;margin-right:60px;box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1); border-radius:20px;">
+                        <img src="@item.IMGSP1" class="card-img-top" style="border-radius:20px;" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">@item.TENSP</h5>
+                            <p class="card-text">Giá bán: @item.GIA</p>
+                            <p class="card-text">Hãng sản xuất: @item.HANGSX.TENNSX</p>
+                            <a href="@Url.Action("DetailPR","Produce", new {IDPR = item.MASP})" class="btn btn-primary">Xem chi tiết</a>
+                        </div>
+                    </div>
+                }
+            </section>
+            <!-- Phân trang -->
+            <nav aria-label="Page navigation">
+                <ul class="pagination">
+                    @if (Model.PageCount > 1)
+                    {
+                        <li class="page-item @(Model.IsFirstPage ? "disabled" : "")">
+                            <a class="page-link" href="@Url.Action("ShowPR", "Produce", new { page = 1})" tabindex="-1" aria-disabled="@(Model.IsFirstPage ? "true" : "false")">Đầu</a>
+                        </li>
+
+                        <li class="page-item @(Model.IsFirstPage ? "disabled" : "")">
+                            <a class="page-link" href="@Url.Action("ShowPR","Produce",  new { page = Model.PageNumber - 1 })" tabindex="-1" aria-disabled="@(Model.IsFirstPage ? "true" : "false")">Trước</a>
+                        </li>
+                        for (int i = 1; i <= Model.PageCount; i++)
+                        {
+                            <li class="page-item @(i == Model.PageNumber ? "active" : "")">
+                                <a class="page-link" href="@Url.Action("ShowPR","Produce",  new { page = i })">@i</a>
+                            </li>
+                        }
+
+                        <li class="page-item @(Model.IsLastPage ? "disabled" : "")">
+                            <a class="page-link" href="@Url.Action("ShowPR", "Produce", new { page = Model.PageNumber + 1})">Sau</a>
+                        </li>
+
+                        <li class="page-item @(Model.IsLastPage ? "disabled" : "")">
+                            <a class="page-link" href="@Url.Action("ShowPR", "Produce", new { page = Model.PageCount})">Cuối</a>
+                        </li>
+                    }
+                </ul>
+            </nav>
+
+        </div>
+
+
+    </div>
+
+</main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+<script src="https://kit.fontawesome.com/e21d90a16d.js" crossorigin="anonymous"></script>
+<script src="~/Scripts//jquery-3.7.1.js"></script>
+<script src="~/Scripts/jquery.validate.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+@*<script>
+    function loadPage(page, search) {
+        $.ajax({
+            url: '/Produce/FindPR',
+            type: 'GET',
+            data: { search: search, page: page },
+            success: function (data) {
+                var productList = $(data).find('#productList');
+
+                if (productList.length > 0) {
+                    $('#productList').html(productList.html());
+
+                    // Construct the URL with the correct parameters
+                    var url = window.location.href.split('?')[0]; // Get the current URL without parameters
+                    var newUrl = url + '?search=' + search + '&page=' + page;
+
+                    // Cập nhật URL trên thanh địa chỉ trình duyệt (không bắt buộc)
+                    history.pushState(null, null, newUrl);
+                } else {
+                    console.error('Error: Unable to find #productList in the AJAX response.');
+                }
+            },
+            error: function (error) {
+                console.error('Error:', error);
+            }
+        });
+    }
+
+
+</script>*@

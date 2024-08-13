@@ -1,0 +1,60 @@
+﻿@model GTX_STORE_WEB.Models.CHITIETDONHANG
+
+@{
+    ViewBag.Title = "DetailPRAdmin";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutPage1.cshtml";
+}
+<main id="main" class="main">
+    <div class="pagetitle">
+        <h1>Xem chi tiết đơn hàng</h1>
+        <nav>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="@Url.Action("Index","HomeAdmin")">Home</a></li>
+                <li class="breadcrumb-item active">Xem chi tiết đơn hàng</li>
+            </ol>
+        </nav>
+    </div><!-- End Page Title -->
+    <section class="section dashboard" style="display: flex; height: 100%">
+        <div class="card mb-3" style="width:812px; border-radius:20px; padding:20px;">
+            <img src="@Html.DisplayFor(model => model.SANPHAM.IMGSP1)" style="width: 512px;height:412px;justify-content:center ;border-radius: 20px; " class="img-fluid rounded-start" alt="...">
+        </div>
+        <div style="width:100%;">
+            <div class="card mb-3" style="width:100%;height:250px; margin-left:20px ;border-radius:20px;">
+                <div class="row g-0">
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Thông tin người đặt</h5>
+                            <ul>
+                                <li><p class="card-text"><span style="font-weight:bold">Họ tên:</span> @Html.DisplayFor(model => model.DONHANG.KHACH.HOTEN)</p></li>
+                                <br />
+                                <li><p class="card-text"><span style="font-weight:bold">Số điện thoại:</span> @Html.DisplayFor(model => model.DONHANG.KHACH.SODT)</p></li>
+                                <br />
+                                <li><p class="card-text"><span style="font-weight:bold">Email:</span> @Html.DisplayFor(model => model.DONHANG.KHACH.EMAIL)</p></li>
+                                <br />
+                                <li><p class="card-text"><span style="font-weight:bold">Địa chỉ:</span> @Html.DisplayFor(model => model.DONHANG.KHACH.DIACHI)</p></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3" style="width:100%;height:250px; margin-left:20px ;border-radius:20px;">
+                <div class="row g-0">
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">@Html.DisplayFor(model => model.SANPHAM.TENSP)</h5>
+                            <ul>
+                                <li><p class="card-text" style="color:red"><span style="font-weight:bold">Giá sản phẩm: </span>@Html.DisplayFor(model => model.SANPHAM.GIA)</p></li>
+                                <br />
+                                <li><p class="card-text"><span style="font-weight:bold">Loại sản phẩm: </span>@Html.DisplayFor(model => model.SANPHAM.LOAISP.TENLOAI)</p></li>
+                                <br />
+                                <li><p class="card-text"><span style="font-weight:bold">Hãng sản xuất:</span> @Html.DisplayFor(model => model.SANPHAM.HANGSX.TENNSX)</p></li>
+                                <br />
+                                <li><p class="card-text"><span style="font-weight:bold">Số lượng đặt mua:</span> @Html.DisplayFor(model => model.SOLUONG)</p></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>

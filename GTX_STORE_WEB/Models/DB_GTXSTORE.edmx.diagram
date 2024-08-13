@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9448cd95450447c693d84b06356da3aa" Name="Diagram1">
+        <EntityTypeShape EntityType="LTW_QLLKModel.CHITIETDONHANG" Width="1.5" PointX="5.25" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LTW_QLLKModel.CT_GIOHANG" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LTW_QLLKModel.DONHANG" Width="1.5" PointX="3" PointY="12.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LTW_QLLKModel.GIOHANG" Width="1.5" PointX="3" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LTW_QLLKModel.HANGSX" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="LTW_QLLKModel.KHACH" Width="1.5" PointX="0.75" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LTW_QLLKModel.LOAISP" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="LTW_QLLKModel.SANPHAM" Width="1.5" PointX="3" PointY="2.75" IsExpanded="true" />
+        <AssociationConnector Association="LTW_QLLKModel.FK__CHITIETDON__MADH__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="LTW_QLLKModel.FK__CHITIETDON__MASP__4CA06362" ManuallyRouted="false" />
+        <AssociationConnector Association="LTW_QLLKModel.FK__CT_GIOHANG__MAGH__44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="LTW_QLLKModel.FK__CT_GIOHANG__MASP__45F365D3" ManuallyRouted="false" />
+        <AssociationConnector Association="LTW_QLLKModel.FK__DONHANG__MAKH__48CFD27E" ManuallyRouted="false" />
+        <AssociationConnector Association="LTW_QLLKModel.FK__GIOHANG__MAKH__4222D4EF" ManuallyRouted="false" />
+        <AssociationConnector Association="LTW_QLLKModel.FK__SANPHAM__MANSX__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="LTW_QLLKModel.FK__SANPHAM__MALOAI__3E52440B" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

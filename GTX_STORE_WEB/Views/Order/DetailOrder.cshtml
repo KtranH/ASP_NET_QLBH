@@ -1,0 +1,65 @@
+﻿@model GTX_STORE_WEB.Models.CHITIETDONHANG
+
+@{
+    ViewBag.Title = "DetailOrder";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<main id="main" class="main">
+
+    <div class="pagetitle">
+      <h1>Chi tiết đơn hàng</h1>
+      <nav>
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="@Url.Action("Index","Home")">Home</a></li>
+          <li class="breadcrumb-item"><a href="@Url.Action("Order","Order")">Đơn hàng</a></li>
+          <li class="breadcrumb-item active">Chi tiết đơn hàng</li>
+        </ol>
+      </nav>
+    </div><!-- End Page Title -->
+    <section class="section">
+        <div class="row align-items-top">
+                <!-- Default Card -->
+                <div class="card" style="border-radius:20px;">
+                    <div class="card-body">
+                        <h5 class="card-title">Chi tiết tài khoản đặt mua</h5>
+                        <h3>Tên tài khoản đặt mua: @Model.DONHANG.KHACH.TENTK</h3>
+                        <ul>
+                            <li><span style="font-weight:bold">Tên người nhận hàng:</span> @Model.DONHANG.KHACH.HOTEN</li>
+                            <li><span style="font-weight:bold">Số điện thoại người nhận hàng:</span> @Model.DONHANG.KHACH.SODT</li>
+                            <li><span style="font-weight:bold">Địa chỉ nhận hàng:</span> @Model.DONHANG.KHACH.DIACHI</li>
+                            <li><span style="font-weight:bold">Ghi chú:</span> @Model.DONHANG.KHACH.GHICHU</li>
+                        </ul>
+                    </div>
+                </div><!-- End Default Card -->
+            <!-- Card with header and footer -->
+            <div class="card" style="border-radius:20px;width:100%;">
+                <div class="card-header" style="border-radius: 20px; width: 100%">Chi tiết mã đơn hàng: @Model.MADH</div>
+                <div class="card-body" style="width:100%">
+                    <h5 class="card-title">Đơn hàng cho sản phẩm: @Model.SANPHAM.TENSP</h5>
+                    <h5 style="font-weight:bold">Tên sản phẩm: @Model.SANPHAM.TENSP</h5>
+                    <ul>
+                        <li>
+                            <span style="font-weight:bold">Mã sản phẩm: </span>@Model.MASP
+                        </li>
+                        <li>
+                            <span style="font-weight:bold">Số lượng sản phẩm đặt mua:</span> @Model.SOLUONG
+                        </li>
+                        <li>
+                            <span style="font-weight:bold">Tổng thành tiền thanh toán:</span> <span style="font-weight:bold;color:red">@Model.THANHTIEN</span>
+                        </li>
+                        <li>
+                            <p style="font-weight:bold">Hình ảnh sản phẩm: </p>
+                            <img src="@Model.SANPHAM.IMGSP1" style="width:212px;height:212px;border-radius:20px;" alt="Alternate Text" />
+                        </li>
+                        <li>
+                            <span style="font-weight:bold"> Mô tả sản phẩm:</span> @Model.SANPHAM.MIEUTA
+                        </li>
+                    </ul>
+                </div>
+                <div class="card-footer" style="border-radius: 20px; width: 100%">
+                    Tình trạng: @Model.DONHANG.TINHTRANG
+                </div>
+            </div><!-- End Card with header and footer -->
+        </div>
+    </section>
+  </main><!-- End #main -->

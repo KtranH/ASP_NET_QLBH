@@ -1,0 +1,112 @@
+﻿@model GTX_STORE_WEB.Models.SANPHAM
+
+@{
+    ViewBag.Title = "MorePR";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutPage1.cshtml";
+}
+<main id="main" class="main">
+    <div class="pagetitle">
+        <h1>Thêm sản phẩm</h1>
+        <nav>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="@Url.Action("Index","HomeAdmin")">Home</a></li>
+                <li class="breadcrumb-item active">Thêm sản phẩm</li>
+            </ol>
+        </nav>
+    </div><!-- End Page Title -->
+    <section class="section dashboard" style="background-color: white; padding: 20px; border-radius: 20px; box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1); margin-bottom: 20px;">
+        @using (Html.BeginForm("MorePR","ProduceAdmin",FormMethod.Post))
+        {
+            @Html.AntiForgeryToken()
+            
+            <div class="form-horizontal">
+                <h5>Thêm một sản phẩm</h5>
+                <hr />
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                <div class="form-group">
+                    <div class="form-floating mb-3">
+                        @Html.TextBoxFor(model => model.TENSP, new { @class = "form-control", @id = "floatingInputName", placeholder = "Tên sản phẩm", @required = "required" })
+                        @Html.Label("Tên sản phẩm: ", new { @class = "form-label" })
+                        @Html.ValidationMessageFor(model => model.TENSP, "Vui lòng nhập tên sản phẩm", new { @class = "invalid-feedback" })
+                    </div>
+                </div>
+
+                <div class="form-floating mb-3">
+                    @Html.TextBoxFor(model => model.BAOHANH, new { @class = "form-control", @id = "floatingStockInput", @type = "number", @placeholder = "Nhập bảo hành", @required = "required" })
+                    @Html.Label("Bảo hành: ", new { @class = "form-label" })
+                    @Html.ValidationMessageFor(model => model.BAOHANH, "Vui lòng nhập số năm bảo hành", new { @class = "invalid-feedback" })
+                </div>
+
+                <div class="form-floating mb-3">
+                    @Html.TextBoxFor(model => model.IMGSP1, new { @class = "form-control", @id = "floatingInputImage", @placeholder = "Nhập link ảnh", @required = "required" })
+                    @Html.Label("Link hình ảnh:", new { @class = "form-label" })
+                    @Html.ValidationMessageFor(model => model.IMGSP1, "Vui lòng nhập vào link ảnh", new { @class = "invalid-feedback" })
+                </div>
+
+                <div class="form-floating mb-3">
+                    @Html.TextBoxFor(model => model.IMGSP2, new { @class = "form-control", @id = "floatingInputImage", @placeholder = "Nhập link ảnh" })
+                    @Html.Label("Link hình ảnh:", new { @class = "form-label" })
+                    @Html.ValidationMessageFor(model => model.IMGSP2, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-floating mb-3">
+                    @Html.TextBoxFor(model => model.IMGSP3, new { @class = "form-control", @id = "floatingInputImage", @placeholder = "Nhập link ảnh" })
+                    @Html.Label("Link hình ảnh:", new { @class = "form-label" })
+                    @Html.ValidationMessageFor(model => model.IMGSP3, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-floating mb-3">
+                    @Html.TextBoxFor(model => model.MIEUTA, new { @class = "form-control", @id = "floatingDescriptionInput", @placeholder = "Nhập mô tả" })
+                    @Html.Label("Mô tả:", new { @class = "form-label" })
+                    @Html.ValidationMessageFor(model => model.MIEUTA, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-floating mb-3">
+                    @Html.TextBoxFor(model => model.GIA, new { @class = "form-control", @id = "floatingPriceInput", @placeholder = "Nhập giá", @required = "required", @type = "number"})
+                    @Html.Label("Giá sản phẩm:", new { @class = "form-label" })
+                    @Html.ValidationMessageFor(model => model.GIA, "Vui lòng nhập giá sản phẩm", new { @class = "invalid-feedback" })
+                </div>
+
+                <div class="form-floating mb-3">
+                    @Html.TextBoxFor(model => model.SOLUONGSP, new { @class = "form-control", @id = "floatingStockInput", @type = "number", @placeholder = "Nhập số lượng", @required = "required"})
+                    @Html.Label("Số lượng:", new { @class = "form-label" })
+                    @Html.ValidationMessageFor(model => model.SOLUONGSP, "Vui lòng nhập số lượng sản phẩm", new { @class = "invalid-feedback" })
+                </div>
+                <div class="form-floating mb-3">
+                    @Html.DropDownListFor(model => model.TRANGTHAI, new SelectList(
+                        new List<SelectListItem>
+                        {
+                            new SelectListItem { Text = "Còn hàng", Value = "Còn hàng" },
+                            new SelectListItem { Text = "Hết hàng", Value = "Hết hàng" }
+                        }, "Value", "Text"), new { @class = "form-select", @id = "floatingStatusSelect" })
+                    @Html.Label("Tình trạng:", new { @class = "form-label" })
+                    @Html.ValidationMessageFor(model => model.TRANGTHAI, "Vui lòng chọn trạng thái", new { @class = "invalid-feedback" })
+                </div>
+
+                <div class="form-floating mb-3">
+                    @Html.DropDownListFor(model => model.MANSX, (SelectList)ViewBag.tenHangList, new { @class = "form-select", @id = "floatingBrandSelect", @required = "required" })
+                    @Html.Label("Hãng sản xuất:", new { @class = "form-label" })
+                    @Html.ValidationMessageFor(model => model.MANSX, "Vui lòng chọn hãng", new { @class = "invalid-feedback" })
+                </div>
+
+                <div class="form-floating mb-3">
+                    @Html.DropDownListFor(model => model.MALOAI, (SelectList)ViewBag.tenLoaiList, new { @class = "form-select", @id = "floatingCategorySelect", @required = "required" })
+                    @Html.Label("Loại sản phẩm:", new { @class = "form-label" })
+                    @Html.ValidationMessageFor(model => model.MALOAI, "Vui lòng chọn loại", new { @class = "invalid-feedback" })
+                </div>
+
+                <div class="d-grid gap-2 col-6 mx-auto">
+                    <button class="btn btn-primary" type="submit">Thêm</button>
+                </div>
+            </div>
+        }
+
+        <a href="@Url.Action("Index","HomeAdmin")" style="text-decoration:none;font-size:15px;color:black;margin-left:20px;">
+            <i class="fa-solid fa-backward"></i>  Quay Lại
+        </a>
+    </section>
+</main>
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+

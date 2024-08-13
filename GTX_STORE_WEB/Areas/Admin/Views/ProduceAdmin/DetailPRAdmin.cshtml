@@ -1,0 +1,77 @@
+﻿@model GTX_STORE_WEB.Models.SANPHAM
+@{
+    ViewBag.Title = "DetailPRAdmin";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutPage1.cshtml";
+}
+<main id="main" class="main">
+    <div class="pagetitle">
+        <h1>Xem chi tiết sản phẩm</h1>
+        <nav>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="@Url.Action("Index","HomeAdmin")">Home</a></li>
+                <li class="breadcrumb-item active">Xem chi tiết sản phẩm</li>
+            </ol>
+        </nav>
+    </div><!-- End Page Title -->
+    <section class="section dashboard" style="display:flex">
+        <div>
+            <div class="card mb-3" style="width:512px; border-radius:20px; padding:20px;">
+                <img src="@Html.DisplayFor(model => model.IMGSP1)" style="width: 512px;height:412px;justify-content:center ;border-radius: 20px; " class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="card mb-3" style="max-width: 512px;border-radius:20px;">
+                <div class="row g-0">
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">@Html.DisplayFor(model => model.TENSP)</h5>
+                            <ul>
+                                <li><p class="card-text" style="color:red">Giá sản phẩm: @Html.DisplayFor(model => model.GIA)</p></li>
+                                <br />
+                                <li><p class="card-text">Loại sản phẩm: @Html.DisplayFor(model => model.LOAISP.TENLOAI)</p></li>
+                                <br />
+                                <li><p class="card-text">Hãng sản xuất: @Html.DisplayFor(model => model.HANGSX.TENNSX)</p></li>
+                                <br />
+                                <li><p class="card-text">Số lượng còn lại: @Html.DisplayFor(model => model.SOLUONGSP)</p></li>
+                                <br />
+                                <li><p class="card-text">Bảo hành: @Html.DisplayFor(model => model.BAOHANH) năm</p></li>
+                                <br />
+                                <li><p class="card-text">Quốc gia: @Html.DisplayFor(model => model.HANGSX.QUOCGIA)</p></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card" style="max-width: 900px; border-radius:20px;padding:20px;margin-left:20px;">
+            <div class="card-body" style="display:flex;justify-content:left;flex-wrap:wrap">
+                <h3 style="font-weight:bold"> Mô tả: </h3>
+                <p class="card-text" style="margin-left:100px;margin-right:100px;text-align:justify">
+                    <ul>
+                        <li>
+                            @Html.DisplayFor(model => model.MIEUTA)
+                        </li>
+                        <br />
+                        <li>
+                            Sản phẩm linh kiện điện tử X là một đỉnh cao của công nghệ hiện đại, mang lại trải nghiệm độc đáo và không thể tin được trong thế giới kết nối. Với thiết kế tinh tế và tính năng đột phá, sản phẩm này không chỉ là một bước tiến lớn về công nghệ mà còn là biểu tượng của sự sáng tạo và tiện ích.
+                        </li>
+                        <br />
+                        <li>
+                            Sự mạnh mẽ của linh kiện này bắt đầu từ vi xử lý tiên tiến, đem lại khả năng xử lý thông tin vô song và tốc độ đáng kinh ngạc. Điều này giúp sản phẩm hoạt động mượt mà và hiệu quả trong mọi tình huống, từ các ứng dụng thông thường đến những nhiệm vụ đòi hỏi độ phức tạp cao.
+                        </li>
+                        <br />
+                        <li>
+                            Một điểm đáng chú ý khác là khả năng kết nối linh hoạt của sản phẩm, hỗ trợ nhiều giao thức truyền thông để đáp ứng đa dạng nhu cầu của người dùng. Điều này giúp tối ưu hóa tích hợp với các hệ thống khác nhau và tạo ra một môi trường kết nối thông minh và linh hoạt.
+                        </li>
+                        <br />
+                        <li>
+                            Không chỉ mạnh mẽ về tính năng, sản phẩm linh kiện điện tử X còn chú trọng đến việc bảo vệ môi trường với các vật liệu tái chế và quy trình sản xuất bền vững. Điều này thể hiện cam kết của nhà sản xuất đối với việc giảm lượng chất thải và ảnh hưởng xấu đến môi trường.
+                        </li>
+                    </ul>
+                </p>
+            </div>
+            <div>
+                <img src="https://www.gameinformer.com/sites/default/files/styles/full/public/2022/07/28/8d72dcdd/redux-launch.jpg" style="width: 100%;border-radius:20px;" alt="...">
+            </div>
+        </div>
+    </section>
+</main>
+

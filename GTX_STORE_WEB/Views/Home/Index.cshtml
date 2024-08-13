@@ -1,0 +1,107 @@
+﻿@using PagedList
+@using PagedList.Mvc
+@model IPagedList<GTX_STORE_WEB.Models.SANPHAM>
+
+<main id="main" class="main">
+    <div class="pagetitle">
+        <h1>Trang chủ</h1>
+        <nav>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="@Url.Action("Index","Home")">Home</a></li>
+                <li class="breadcrumb-item active">Trang chủ</li>
+            </ol>
+        </nav>
+    </div><!-- End Page Title -->
+    <div style="width: 100%; background-color: white; box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1); padding:20px;margin-bottom:40px;border-radius:20px;">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner" style="border-radius: 20px">
+                <div class="carousel-item active">
+                    <img src="https://i.pinimg.com/originals/fc/30/18/fc301880e2ce258ac54a03a8ca7fbe23.jpg" style=" height:600px; object-fit:cover;object-position:center;filter:brightness(0.6)" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3 style="font-weight:bold">Nơi bạn tin tưởng khi mua sắm</h3>
+                        <p>
+                            Chúng tôi cam kết chất lượng và giá trị, mang đến cho bạn trải nghiệm mua sắm an tâm và hài lòng.
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://growngaming.com/wp-content/uploads/2019/10/Aquarium-PC-build.jpg" style=" height: 600px; object-fit: cover; object-position: center; filter: brightness(0.6)" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3 style="font-weight:bold">
+                            Khám phá các ưu đãi hấp dẫn
+                        </h3>
+                        <p>
+                            Chúng tôi thường xuyên cập nhật các chương trình khuyến mãi để bạn có cơ hội tiết kiệm và sở hữu những sản phẩm công nghệ hàng đầu.
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://techaz.vn/wp-content/uploads/2021/07/pasted-image-0.png" style=" height: 600px; object-fit: cover; object-position: center; filter: brightness(0.6)" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3 style="font-weight:bold">
+                            Hãy đồng hành cùng GTXStore
+                        </h3>
+                        <p>
+                            Chúng tôi không chỉ là nơi mua sắm, mà còn là nguồn cảm hứng cho sự sáng tạo và phát triển của bạn trong thế giới linh kiện điện tử.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <section class="section dashboard" style="display: flex; justify-content: center; flex-wrap: wrap; background-color: white; padding: 20px; border-radius: 20px; box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1); margin-bottom:20px;">
+        @foreach (var item in Model)
+        {
+            <div class="card" style="width: 18rem; margin-bottom: 60px;margin-right:60px;box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1); border-radius:20px;">
+                <img src="@item.IMGSP1" class="card-img-top" style="border-radius:20px;" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">@item.TENSP</h5>
+                    <p class="card-text">Giá bán: @item.GIA</p>
+                    <p class="card-text">Hãng sản xuất: @item.HANGSX.TENNSX</p>
+                    <a href="@Url.Action("DetailPR","Produce", new {IDPR = item.MASP})" class="btn btn-primary">Xem chi tiết</a>
+                </div>
+            </div>
+        }
+    </section>
+    <nav aria-label="Page navigation">
+        <ul class="pagination">
+            @if (Model.PageCount > 1)
+            {
+                <li class="page-item @(Model.IsFirstPage ? "disabled" : "")">
+                    <a class="page-link" href="@Url.Action("Index", "Home", new { page = 1 })" tabindex="-1" aria-disabled="@(Model.IsFirstPage ? "true" : "false")">Đầu</a>
+                </li>
+
+                <li class="page-item @(Model.IsFirstPage ? "disabled" : "")">
+                    <a class="page-link" href="@Url.Action("Index","Home",  new { page = Model.PageNumber - 1 })" tabindex="-1" aria-disabled="@(Model.IsFirstPage ? "true" : "false")">Trước</a>
+                </li>
+                for (int i = 1; i <= Model.PageCount; i++)
+                {
+                    <li class="page-item @(i == Model.PageNumber ? "active" : "")">
+                        <a class="page-link" href="@Url.Action("Index","Home",  new { page = i })">@i</a>
+                    </li>
+                }
+
+                <li class="page-item @(Model.IsLastPage ? "disabled" : "")">
+                    <a class="page-link" href="@Url.Action("Index", "Home", new { page = Model.PageNumber + 1 })">Sau</a>
+                </li>
+
+                <li class="page-item @(Model.IsLastPage ? "disabled" : "")">
+                    <a class="page-link" href="@Url.Action("Index", "Home", new { page = Model.PageCount })">Cuối</a>
+                </li>
+            }
+        </ul>
+    </nav>
+</main>

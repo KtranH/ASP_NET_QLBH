@@ -1,0 +1,103 @@
+﻿@using PagedList
+@using PagedList.Mvc
+@model IPagedList<GTX_STORE_WEB.Models.LOAISP>
+
+@{
+    ViewBag.Title = "BrandPR";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<main id="main" class="main">
+    <div class="pagetitle">
+        <h1>Loại sản phẩm</h1>
+        <nav>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="@Url.Action("Index","HomeAdmin")">Home</a></li>
+                <li class="breadcrumb-item active">Loại sản phẩm</li>
+            </ol>
+        </nav>
+    </div><!-- End Page Title -->
+    <section class="section dashboard" style="background-color: white; padding: 20px; border-radius: 20px; box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1); margin-bottom: 20px;">
+        <div class="card mb-4">
+            <div class="card-header" style="background-color:royalblue;color:white;border-radius:20px;">
+                <i class="fas fa-table me-1"></i>
+                Danh Sách Loại Sản Phẩm
+            </div>
+        </div>
+
+        <div class="card-body">
+            <header id="header" class="header d-flex align-items-center" style="border-radius:20px;margin-bottom:20px;">
+                <div class="search-bar" style="width:100%">
+                    @using (Html.BeginForm("FindAdminKind", "FindAdmin", FormMethod.Post))
+                    {
+                        <div class="search-form d-flex align-items-center">
+                            @Html.TextBox("FindX", null, new { placeholder = "Search", title = "Enter search keyword", style = "border-radius:20px;padding:10px" })
+                            <button type="submit" title="Search"><i class="bi bi-search"></i></button>
+                        </div>
+                    }
+                </div><!-- End Search Bar -->
+            </header>
+            <table class="table">
+                <tr>
+                    <th>
+                        @Html.DisplayName("Mã loại sản phẩm")
+                    </th>
+                    <th>
+                        @Html.DisplayName("Tên loại sản phẩm")
+                    </th>
+                    <th>
+                        Khác
+                    </th>
+                </tr>
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.MALOAI)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.TENLOAI)
+                        </td>
+                        <td>
+                            @Html.ActionLink("Chỉnh sửa", "UpdateKind", new { id = item.MALOAI })
+                        </td>
+                    </tr>
+                }
+
+            </table>
+        </div>
+        <nav aria-label="Page navigation">
+            <ul class="pagination">
+                @if (Model.PageCount > 1)
+                {
+                    <li class="page-item @(Model.IsFirstPage ? "disabled" : "")">
+                        <a class="page-link" href="@Url.Action("KindPR", "ProduceAdmin", new { page = 1 })" tabindex="-1" aria-disabled="@(Model.IsFirstPage ? "true" : "false")">Đầu</a>
+                    </li>
+
+                    <li class="page-item @(Model.IsFirstPage ? "disabled" : "")">
+                        <a class="page-link" href="@Url.Action("KindPR","ProduceAdmin",  new { page = Model.PageNumber - 1 })" tabindex="-1" aria-disabled="@(Model.IsFirstPage ? "true" : "false")">Trước</a>
+                    </li>
+                    for (int i = 1; i <= Model.PageCount; i++)
+                    {
+                        <li class="page-item @(i == Model.PageNumber ? "active" : "")">
+                            <a class="page-link" href="@Url.Action("KindPR","ProduceAdmin",  new { page = i })">@i</a>
+                        </li>
+                    }
+
+                    <li class="page-item @(Model.IsLastPage ? "disabled" : "")">
+                        <a class="page-link" href="@Url.Action("KindPR", "ProduceAdmin", new { page = Model.PageNumber + 1 })">Sau</a>
+                    </li>
+
+                    <li class="page-item @(Model.IsLastPage ? "disabled" : "")">
+                        <a class="page-link" href="@Url.Action("KindPR", "ProduceAdmin", new { page = Model.PageCount })">Cuối</a>
+                    </li>
+                }
+            </ul>
+        </nav>
+        <p>
+            <button class="btn btn-primary" onclick="window.location.href='@Url.Action("MoreKind","ProduceAdmin")'">Thêm loại sản phẩm mới</button>
+        </p>
+    </section>
+</main>
+

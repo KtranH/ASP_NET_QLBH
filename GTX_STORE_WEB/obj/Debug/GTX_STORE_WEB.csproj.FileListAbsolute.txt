@@ -1,0 +1,391 @@
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\obj\Debug\GTX_STORE_WEB.csproj.AssemblyReference.cache
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\GTX_STORE_WEB.dll.config
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\GTX_STORE_WEB.dll
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\GTX_STORE_WEB.pdb
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\csc.exe
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\csc.exe.config
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\csc.rsp
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\csi.exe
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\csi.exe.config
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\csi.rsp
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.Managed.Core.targets
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\System.Collections.Immutable.dll
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\System.Reflection.Metadata.dll
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\vbc.exe
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\vbc.exe.config
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\vbc.rsp
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\VBCSCompiler.exe
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\VBCSCompiler.exe.config
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\Antlr3.Runtime.dll
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\Microsoft.Web.Infrastructure.dll
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\Newtonsoft.Json.dll
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.Helpers.dll
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.Mvc.dll
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.Optimization.dll
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.Razor.dll
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.WebPages.Deployment.dll
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.WebPages.dll
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.WebPages.Razor.dll
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\WebGrease.dll
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.Helpers.xml
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.Mvc.xml
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.Optimization.xml
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.Razor.xml
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.WebPages.xml
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.WebPages.Deployment.xml
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.WebPages.Razor.xml
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\Newtonsoft.Json.xml
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\Antlr3.Runtime.pdb
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\obj\Debug\GTX_STORE_WEB.csproj.CoreCompileInputs.cache
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\obj\Debug\GTX_STORE_WEB.csproj.CopyComplete
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\obj\Debug\GTX_STORE_WEB.dll
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\obj\Debug\GTX_STORE_WEB.pdb
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\EntityFramework.dll
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\EntityFramework.SqlServer.dll
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\EntityFramework.xml
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\EntityFramework.SqlServer.xml
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\System.Buffers.dll
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\System.Memory.dll
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\System.Numerics.Vectors.dll
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\PagedList.dll
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\PagedList.Mvc.dll
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\PagedList.xml
+F:\Đồ Án Web\GTX_STORE_WEB\GTX_STORE_WEB\bin\PagedList.Mvc.xml
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\GTX_STORE_WEB.dll.config
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\GTX_STORE_WEB.dll
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\GTX_STORE_WEB.pdb
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\csc.exe
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\csc.exe.config
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\csc.rsp
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\csi.exe
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\csi.exe.config
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\csi.rsp
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\System.Buffers.dll
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\System.Memory.dll
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\vbc.exe
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\vbc.exe.config
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\vbc.rsp
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\VBCSCompiler.exe
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\Antlr3.Runtime.dll
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\EntityFramework.dll
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\EntityFramework.SqlServer.dll
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\Newtonsoft.Json.dll
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\PagedList.dll
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\PagedList.Mvc.dll
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.Helpers.dll
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.Mvc.dll
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.Optimization.dll
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.Razor.dll
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.WebPages.Deployment.dll
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.WebPages.dll
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.WebPages.Razor.dll
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\WebGrease.dll
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\EntityFramework.xml
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\EntityFramework.SqlServer.xml
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\Newtonsoft.Json.xml
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\PagedList.xml
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\PagedList.Mvc.xml
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.Helpers.xml
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.Mvc.xml
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.Razor.xml
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.WebPages.xml
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.WebPages.Deployment.xml
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.WebPages.Razor.xml
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.Optimization.xml
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\Antlr3.Runtime.pdb
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\obj\Debug\GTX_STORE_WEB.csproj.AssemblyReference.cache
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\obj\Debug\GTX_STORE_WEB.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\obj\Debug\GTX_STORE_WEB.csproj.CopyComplete
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\obj\Debug\GTX_STORE_WEB.dll
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\obj\Debug\GTX_STORE_WEB.pdb
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\Common.dll
+C:\Users\DELL\Downloads\GTX_STORE_WEB\GTX_STORE_WEB\bin\Common.pdb
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\GTX_STORE_WEB.dll.config
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\GTX_STORE_WEB.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\GTX_STORE_WEB.pdb
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\csc.exe
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\csc.exe.config
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\csc.rsp
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\csi.exe
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\csi.exe.config
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\csi.rsp
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.Managed.Core.targets
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\System.Buffers.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\System.Collections.Immutable.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\System.Memory.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\System.Numerics.Vectors.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\System.Reflection.Metadata.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\vbc.exe
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\vbc.exe.config
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\vbc.rsp
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\VBCSCompiler.exe
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\VBCSCompiler.exe.config
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\Antlr3.Runtime.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\Common.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\EntityFramework.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\EntityFramework.SqlServer.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\Microsoft.Web.Infrastructure.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\Newtonsoft.Json.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\PagedList.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\PagedList.Mvc.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.Helpers.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.Mvc.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.Optimization.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.Razor.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.WebPages.Deployment.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.WebPages.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.WebPages.Razor.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\WebGrease.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\Common.pdb
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\EntityFramework.xml
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\EntityFramework.SqlServer.xml
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\Newtonsoft.Json.xml
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\PagedList.xml
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\PagedList.Mvc.xml
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.Helpers.xml
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.Mvc.xml
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.Razor.xml
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.WebPages.xml
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.WebPages.Deployment.xml
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.WebPages.Razor.xml
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.Optimization.xml
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\bin\Antlr3.Runtime.pdb
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\obj\Debug\GTX_STORE_WEB.csproj.AssemblyReference.cache
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\obj\Debug\GTX_STORE_WEB.csproj.CoreCompileInputs.cache
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\obj\Debug\GTX_STORE_WEB.csproj.CopyComplete
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\obj\Debug\GTX_STORE_WEB.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\web 02-12-2003\GTX_STORE_WEB\GTX_STORE_WEB\obj\Debug\GTX_STORE_WEB.pdb
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\GTX_STORE_WEB.dll.config
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\GTX_STORE_WEB.dll
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\GTX_STORE_WEB.pdb
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\csc.exe
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\csc.exe.config
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\csc.rsp
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\csi.exe
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\csi.exe.config
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\csi.rsp
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\System.Buffers.dll
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\System.Collections.Immutable.dll
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\System.Memory.dll
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\System.Numerics.Vectors.dll
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\System.Reflection.Metadata.dll
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\vbc.exe
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\vbc.exe.config
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\vbc.rsp
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\VBCSCompiler.exe
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\VBCSCompiler.exe.config
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\Antlr3.Runtime.dll
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\Common.dll
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\EntityFramework.dll
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\EntityFramework.SqlServer.dll
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\Microsoft.Web.Infrastructure.dll
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\Newtonsoft.Json.dll
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\PagedList.dll
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\PagedList.Mvc.dll
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.Helpers.dll
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.Mvc.dll
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.Optimization.dll
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.Razor.dll
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.WebPages.Deployment.dll
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.WebPages.dll
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.WebPages.Razor.dll
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\WebGrease.dll
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\Common.pdb
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\EntityFramework.xml
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\EntityFramework.SqlServer.xml
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\Newtonsoft.Json.xml
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\PagedList.xml
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\PagedList.Mvc.xml
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.Helpers.xml
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.Mvc.xml
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.Razor.xml
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.WebPages.xml
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.WebPages.Deployment.xml
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.WebPages.Razor.xml
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.Optimization.xml
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\Antlr3.Runtime.pdb
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\obj\Debug\GTX_STORE_WEB.csproj.AssemblyReference.cache
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\obj\Debug\GTX_STORE_WEB.csproj.CoreCompileInputs.cache
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\obj\Debug\GTX_STORE_WEB.csproj.CopyComplete
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\obj\Debug\GTX_STORE_WEB.dll
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\obj\Debug\GTX_STORE_WEB.pdb
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\Newtonsoft.Json.Bson.dll
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Buffers.dll
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Memory.dll
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Net.Http.Formatting.dll
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Numerics.Vectors.dll
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Threading.Tasks.Extensions.dll
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.Http.dll
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.Http.WebHost.dll
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\Newtonsoft.Json.Bson.pdb
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\Newtonsoft.Json.Bson.xml
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Buffers.xml
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Memory.xml
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Net.Http.Formatting.xml
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Numerics.Vectors.xml
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Threading.Tasks.Extensions.xml
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.Http.xml
+D:\Data\TranHoangAnhKhoi_NguyenPhuongDien_NguyenThiThuHa_WEBSITELINHKIENDIENTU\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.Http.WebHost.xml
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\GTX_STORE_WEB.dll.config
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\GTX_STORE_WEB.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\GTX_STORE_WEB.pdb
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\csc.exe
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\csc.exe.config
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\csc.rsp
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\csi.exe
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\csi.exe.config
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\csi.rsp
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.Managed.Core.targets
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\System.Buffers.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\System.Collections.Immutable.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\System.Memory.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\System.Numerics.Vectors.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\System.Reflection.Metadata.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\vbc.exe
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\vbc.exe.config
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\vbc.rsp
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\VBCSCompiler.exe
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\roslyn\VBCSCompiler.exe.config
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\Antlr3.Runtime.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\Common.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\EntityFramework.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\EntityFramework.SqlServer.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\Microsoft.Web.Infrastructure.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\Newtonsoft.Json.Bson.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\Newtonsoft.Json.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\PagedList.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\PagedList.Mvc.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Buffers.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Memory.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Net.Http.Formatting.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Numerics.Vectors.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Threading.Tasks.Extensions.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.Helpers.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.Http.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.Http.WebHost.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.Mvc.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.Optimization.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.Razor.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.WebPages.Deployment.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.WebPages.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.WebPages.Razor.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\WebGrease.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\Common.pdb
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\EntityFramework.xml
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\EntityFramework.SqlServer.xml
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\Newtonsoft.Json.xml
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\Newtonsoft.Json.Bson.pdb
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\Newtonsoft.Json.Bson.xml
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\PagedList.xml
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\PagedList.Mvc.xml
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Buffers.xml
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Memory.xml
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Net.Http.Formatting.xml
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Numerics.Vectors.xml
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Threading.Tasks.Extensions.xml
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.Helpers.xml
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.Http.xml
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.Http.WebHost.xml
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.Mvc.xml
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.Razor.xml
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.WebPages.xml
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.WebPages.Deployment.xml
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.WebPages.Razor.xml
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\System.Web.Optimization.xml
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\bin\Antlr3.Runtime.pdb
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\obj\Debug\GTX_STORE_WEB.csproj.AssemblyReference.cache
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\obj\Debug\GTX_STORE_WEB.csproj.CoreCompileInputs.cache
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\obj\Debug\GTX_STORE_WEB.csproj.CopyComplete
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\obj\Debug\GTX_STORE_WEB.dll
+D:\HỌC TẬP\HK5 2023-2024\Lập trình Web-Dot Net MVC\GTX_STORE_WEB\GTX_STORE_WEB\obj\Debug\GTX_STORE_WEB.pdb

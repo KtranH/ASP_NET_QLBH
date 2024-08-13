@@ -1,0 +1,58 @@
+﻿@model GTX_STORE_WEB.Models.DONHANG
+@{
+    ViewBag.Title = "UpdateBrand";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<main id="main" class="main">
+    <div class="pagetitle">
+        <h1>Xác nhận đơn hàng</h1>
+        <nav>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="@Url.Action("Index","HomeAdmin")">Home</a></li>
+                <li class="breadcrumb-item active">Xác nhận đơn hàng</li>
+            </ol>
+        </nav>
+    </div><!-- End Page Title -->
+    <section class="section dashboard" style="background-color: white; padding: 20px; border-radius: 20px; box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1); margin-bottom: 20px;">
+        @using (Html.BeginForm("UpdateOrderAd", "OrderAdmin", FormMethod.Post))
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-horizontal">
+                <hr />
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                @Html.HiddenFor(model => model.MADH)
+
+            <div class="form-floating mb-3">
+                @Html.TextBoxFor(model => model.NGAYGIAO, new { @class = "form-control", @id = "floatingInputName", @type = "date", @required = "required" })
+                @Html.Label("Ngày giao", new { @class = "form-label" })
+                @Html.ValidationMessageFor(model => model.NGAYGIAO, "Vui lòng nhập chọn một ngày giao", new { @class = "invalid-feedback" })
+                @if (ViewBag.ErrorDate != null)
+                {
+                    <span class="badge badge-danger" style="color:red">@ViewBag.ErrorDate</span>
+                }
+            </div>
+
+                <div class="form-floating mb-3">
+                    @Html.DropDownListFor(model => model.TINHTRANG, new SelectList(new List<SelectListItem>
+                    {
+                   new SelectListItem { Text = "Đã xác nhận", Value = "Đã xác nhận" },
+                   new SelectListItem { Text = "Hủy đơn", Value = "Hủy đơn" },
+                    }, "Value", "Text"), new { @class = "form-select", @id = "floatingStatusSelect", @required = "required" })
+                    @Html.Label("Tình trạng", new { @class = "form-label" })
+                    @Html.ValidationMessageFor(model => model.TINHTRANG, "Vui lòng chọn tình trạng đơn hàng", new { @class = "invalid-feedback" })
+                </div>
+
+                <div class="d-grid gap-2 col-6 mx-auto">
+                    <button class="btn btn-primary" type="submit">Xác nhận đơn hàng</button>
+
+                </div>
+            </div>
+        }
+        <a href="@Url.Action("Index","HomeAdmin")" style="text-decoration:none;font-size:15px;color:black;margin-left:20px;">
+            <i class="fa-solid fa-backward"></i>  Quay Lại
+        </a>
+    </section>
+</main>
+

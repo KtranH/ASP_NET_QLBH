@@ -1,0 +1,104 @@
+﻿<!-- ======= Header ======= -->
+<header id="header" class="header fixed-top d-flex align-items-center">
+
+    <div class="d-flex align-items-center justify-content-between">
+        <i class="bi bi-list toggle-sidebar-btn" style="margin-right:20px;"></i>
+        <a href="@Url.Action("Index","Home")" class="logo d-flex align-items-center">
+            <img src="~/assets/img/logo.png" alt="">
+            <span class="d-none d-lg-block">GTXSTORE</span>
+        </a>
+        Tìm kiếm sản phẩm
+    </div><!-- End Logo -->
+    <div  class="search-bar">
+        <form role="search" action="/Produce/FindPR" method="post">
+            <div class="search-form d-flex align-items-center">
+                @Html.TextBox("search", null, new { id = "txt_Search", placeholder = "Search", title = "Enter search keyword", name = "search" })
+                <button type="submit" title="Search"><i class="bi bi-search"></i></button>
+            </div>
+            </form>
+</div>
+    @*<form  role="search" action="/Produce/FindPR" method="post">
+            <input class="form-control me-2" type="search" placeholder="Tìm kiếm sản phẩm" aria-label="Search" id="txt_Search" name="Search">
+            <button class="btn btn-outline-light" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            <button type="submit" title="Search"><i class="bi bi-search"></i></button>
+        </form>*@
+    <!-- End Search Bar -->
+
+    <nav class="header-nav ms-auto">
+        <ul class="d-flex align-items-center">
+
+            <li class="nav-item d-block d-lg-none">
+                <a class="nav-link nav-icon search-bar-toggle " href="#">
+                    <i class="bi bi-search"></i>
+                </a>
+            </li><!-- End Search Icon-->
+
+            <li class="nav-item dropdown">
+            <li class="nav-item dropdown pe-3">
+                @if (Session["USERACCOUNT"] == null)
+                {
+                    <a href="@Url.Action("SignUp","Account")">
+                        <i class="fa fa-user" aria-hidden="true"></i> Đăng ký
+                    </a>
+                    <a href="@Url.Action("Login","Account")" style="margin-left:20px">
+                        <i class="fa-solid fa-arrow-right-to-bracket"></i> Đăng nhập
+                    </a>
+                }
+                else
+                {
+                    if (Session["GENDER"].ToString().Equals("Nam"))
+                    {
+                        <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+                            <img src="~/assets/img/avatar.jpg" alt="Profile" class="rounded-circle">
+                            <span style="margin-left:20px">Xin chào! @Session["USERACCOUNT"].ToString()</span>
+                        </a>
+                    }
+                    else
+                    {
+                        <a class="nav-link nav-profile d-flex align-items-center pe-0" href="@Url.Action("HomeUser","User")" data-bs-toggle="dropdown">
+                            <img src="~/assets/img/avatar2.jpg" alt="Profile" class="rounded-circle">
+                            <span style="margin-left:20px">Xin chào @Session["USERACCOUNT"].ToString()</span>
+                        </a>
+                    }
+                }
+            </li><!-- End Profile Nav -->
+
+        </ul>
+    </nav><!-- End Icons Navigation -->
+
+</header><!-- End Header -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+<script src="https://kit.fontawesome.com/e21d90a16d.js" crossorigin="anonymous"></script>
+<script src="~/Scripts//jquery-3.7.1.js"></script>
+<script src="~/Scripts/jquery.validate.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script>
+    $("#txt_Search").autocomplete({
+        source: function (request, response) {
+            $.ajax({
+                url: '/Home/Search',
+                dataType: "json",
+                data: { search: request.term },
+                success: function (data) {
+                    response($.map(data, function (item) {
+                        return {
+                            label: item.TENSP,
+                            value: item.TENSP
+                        };
+                    }));
+                },
+                error: function (xhr, status, error) {
+                    alert("Error");
+                }
+            });
+        },
+        open: function (event, ui) {
+            $(".ui-autocomplete").css("z-index", 99999);
+        }
+    });
+</script>

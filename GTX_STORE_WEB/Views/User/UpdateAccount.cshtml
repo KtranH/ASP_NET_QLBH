@@ -1,0 +1,194 @@
+﻿@model GTX_STORE_WEB.Models.KHACH
+@{
+    ViewBag.Title = "UpdateAccount";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<main id="main" class="main">
+
+    <div class="pagetitle">
+        <h1>Cập nhật thông tin</h1>
+        <nav>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="@Url.Action("Index","Home")">Home</a></li>
+                <li class="breadcrumb-item">Tài khoản người dùng</li>
+                <li class="breadcrumb-item active">Cập nhật thông tin</li>
+            </ol>
+        </nav>
+    </div><!-- End Page Title -->
+    <section class="section profile">
+        <div class="row">
+            <div class="col-xl-4">
+
+                <div class="card" style="border-radius:20px;">
+                    <div class="card-body profile-card pt-4 d-flex flex-column align-items-center">
+                        @if (Session["GENDER"].ToString().Equals("Nam"))
+                        {
+                            <img src="~/assets/img/avatar.jpg" alt="Profile" class="rounded-circle">
+                        }
+                        else
+                        {
+                            <img src="~/assets/img/avatar2.jpg" alt="Profile" class="rounded-circle">
+                        }
+                    <h2>@Session["USERNAME"].ToString()</h2>
+                    <h3>@Session["USERACCOUNT"].ToString()</h3>
+                        <div class="social-links mt-2">
+                            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-8" style="border-radius:20px;">
+
+                <div class="card" style="border-radius:20px;">
+                    <div class="card-body pt-3">
+                        <!-- Bordered Tabs -->
+                        <ul class="nav nav-tabs nav-tabs-bordered">
+                            <li class="nav-item">
+                                <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#profile-edit">Cập nhật thông tin</button>
+                            </li>
+                            <li class="nav-item">
+                                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#profile-change-password">Đổi mật khẩu</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content pt-2">
+
+                            <div class="tab-pane fade show active profile-edit pt-3" id="profile-edit">
+
+                                <!-- Profile Edit Form -->
+                                @using (Html.BeginForm("UpdateAccount", "User", FormMethod.Post))
+                                {
+                                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                                    @Html.HiddenFor(model => model.MAKH)
+                                    <div class="row mb-3">
+                                        <label for="yourUsername" class="col-md-4 col-lg-3 col-form-label">Tên tài khoản:</label>
+                                        <div class="col-md-8 col-lg-9">
+                                            @Html.TextBoxFor(model => model.TENTK, new { @class = "form-control", @required = "required" })
+                                            @Html.ValidationMessageFor(model => model.TENTK, "Vui lòng nhập tên tài khoản", new { @class = "invalid-feedback" })
+                                            @if (ViewBag.TenTKError != null)
+                                            {
+                                                <span class="badge badge-danger" style="color:red">@ViewBag.TenTKError</span>
+                                            }
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <label for="fullName" class="col-md-4 col-lg-3 col-form-label">Họ và tên:</label>
+                                        <div class="col-md-8 col-lg-9">
+                                            @Html.TextBoxFor(model => model.HOTEN, new { @class = "form-control", @required = "required" })
+                                            @Html.ValidationMessageFor(model => model.HOTEN, "Vui lòng nhập họ tên", new { @class = "invalid-feedback" })
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <label for="fullName" class="col-md-4 col-lg-3 col-form-label">Giới tính:</label>
+                                        <div class="col-md-8 col-lg-9">
+                                            @Html.DropDownListFor(model => model.GIOITINH, new SelectList(new List<SelectListItem>
+                                             {
+                                                 new SelectListItem { Text = "Nam", Value = "Nam" },
+                                                 new SelectListItem { Text = "Nữ", Value = "Nữ" }
+                                             }, "Value", "Text"), "Chọn giới tính", new { @class = "form-select", @required = "required" })
+                                            @Html.ValidationMessageFor(model => model.GIOITINH, "Bạn chưa xem lại giới tính!", new { @class = "invalid-feedback" })
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <label for="fullName" class="col-md-4 col-lg-3 col-form-label">Ngày sinh:</label>
+                                        <div class="col-md-8 col-lg-9">
+                                            @Html.DisplayFor(model => model.NGAYSINH, new { @class = "form-control", @required = "required" })
+                                            @Html.ValidationMessageFor(model => model.NGAYSINH, "Vui lòng chọn ngày sinh", new { @class = "invalid-feedback" })
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <label for="fullName" class="col-md-4 col-lg-3 col-form-label">Địa chỉ:</label>
+                                        <div class="col-md-8 col-lg-9">
+                                            @Html.TextBoxFor(model => model.DIACHI, new { @class = "form-control", @required = "required" })
+                                            @Html.ValidationMessageFor(model => model.DIACHI, "Vui lòng nhập địa chỉ", new { @class = "invalid-feedback" })
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <label for="fullName" class="col-md-4 col-lg-3 col-form-label">Số điện thoại:</label>
+                                        <div class="col-md-8 col-lg-9">
+                                            @Html.TextBoxFor(model => model.SODT, new { @class = "form-control", @required = "required" })
+                                            @Html.ValidationMessageFor(model => model.SODT, "Vui lòng nhập số điện thoại", new { @class = "invalid-feedback" })
+                                            @if (ViewBag.SDTError != null)
+                                            {
+                                                <span class="badge badge-danger" style="color:red">@ViewBag.SDTError</span>
+                                            }
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <label for="fullName" class="col-md-4 col-lg-3 col-form-label">Email:</label>
+                                        <div class="col-md-8 col-lg-9">
+                                            @Html.TextBoxFor(model => model.EMAIL, new { @class = "form-control", @required = "required", @type = "email" })
+                                            @Html.ValidationMessageFor(model => model.EMAIL, "Vui lòng nhập email", new { @class = "invalid-feedback" })
+                                            @if (ViewBag.EmailError != null)
+                                            {
+                                                <span class="badge badge-danger" style="color:red">@ViewBag.EmailError</span>
+                                            }
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <label for="about" class="col-md-4 col-lg-3 col-form-label">Ghi chú</label>
+                                        <div class="col-md-8 col-lg-9">
+                                            @Html.TextBoxFor(model => model.GHICHU, new { @class = "form-control", id = "about", style = "height: 100px" })
+                                        </div>
+                                    </div>
+                                    <div class="text-center">
+                                        <button type="submit" class="btn btn-primary">Lưu và thay đổi</button>
+                                    </div>
+                                }
+                                <!-- End Profile Edit Form -->
+                            </div>
+                            <div class="tab-pane fade pt-3" id="profile-change-password">
+                                <!-- Change Password Form -->
+                                @using (Html.BeginForm("ChangePassword", "User", FormMethod.Post))
+                                {
+                                    <div class="row mb-3">
+                                        <label for="currentPassword" class="col-md-4 col-lg-3 col-form-label">Mật khẩu hiện tại:</label>
+                                        <div class="col-md-8 col-lg-9">
+                                            @Html.Password("password", null, new { @class = "form-control", id = "currentPassword", @required = "required", })
+                                            @Html.ValidationMessage("password", "Vui lòng nhập mật khẩu của bạn", new { @class = "invalid-feedback" })
+                                            @if (ViewBag.password != null)
+                                            {
+                                                <span class="badge badge-danger" style="color:red">@ViewBag.password</span>
+                                            }
+                                        </div>
+                                    </div>
+
+                                    <div class="row mb-3">
+                                        <label for="newPassword" class="col-md-4 col-lg-3 col-form-label">Mật khẩu mới:</label>
+                                        <div class="col-md-8 col-lg-9">
+                                            @Html.Password("newpassword", null, new { @class = "form-control", id = "newPassword", @required = "required", })
+                                            @Html.ValidationMessage("newpassword", "Vui lòng nhập mật khẩu mới của bạn", new { @class = "invalid-feedback" })
+                                            @if (ViewBag.newpassword != null)
+                                            {
+                                                <span class="badge badge-danger" style="color:red">@ViewBag.newpassword</span>
+                                            }
+                                        </div>
+                                    </div>
+
+                                    <div class="row mb-3">
+                                        <label for="renewPassword" class="col-md-4 col-lg-3 col-form-label">Xác nhận mật khẩu:</label>
+                                        <div class="col-md-8 col-lg-9">
+                                            @Html.Password("renewpassword", null, new { @class = "form-control", id = "renewPassword", @required = "required", })
+                                            @Html.ValidationMessage("renewpassword", "Vui lòng xác nhận mật khẩu của bạn", new { @class = "invalid-feedback" })
+                                            @if (ViewBag.renewpassword != null)
+                                            {
+                                                <span class="badge badge-danger" style="color:red">@ViewBag.renewpassword</span>
+                                            }
+                                        </div>
+                                    </div>
+                                    <div class="text-center">
+                                        <button type="submit" class="btn btn-primary">Đổi mật khẩu</button>
+                                    </div>
+                                }
+                                <!-- End Change Password Form -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>

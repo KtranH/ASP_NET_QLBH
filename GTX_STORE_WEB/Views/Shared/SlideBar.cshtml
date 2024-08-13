@@ -1,0 +1,138 @@
+﻿ <!-- ======= Sidebar ======= -->
+<aside id="sidebar" class="sidebar">
+
+    <ul class="sidebar-nav" id="sidebar-nav">
+
+        <li class="nav-item">
+            <a class="nav-link " href="@Url.Action("Index", "Home")">
+                <i class="bi bi-grid"></i>
+                <span>Trang chủ</span>
+            </a>
+        </li><!-- End Dashboard Nav -->
+
+        <li class="nav-item">
+            <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
+                <i class="bi bi-menu-button-wide"></i><span>Hãng sản xuất</span><i class="bi bi-chevron-down ms-auto"></i>
+            </a>
+            <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                @if (Session["NSX"] != null)
+                {
+                    foreach (var item in (List<GTX_STORE_WEB.Models.HANGSX>)Session["NSX"])
+                    {
+                        <li>
+                            <a href="@Url.Action("FindNSX","Produce",new {NameNSX = item.TENNSX})">
+                                <i class="bi bi-circle"></i><span>@item.TENNSX</span>
+                            </a>
+                        </li>
+                    }
+                }
+            </ul>
+        </li><!-- End Components Nav -->
+
+        <li class="nav-item">
+            <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="#">
+                <i class="bi bi-journal-text"></i><span>Loại sản phẩm</span><i class="bi bi-chevron-down ms-auto"></i>
+            </a>
+            <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                @if (Session["LOAI"] != null)
+                {
+                    foreach (var item in (List<GTX_STORE_WEB.Models.LOAISP>)Session["LOAI"])
+                    {
+                        <li>
+                            <a href="@Url.Action("FindKind", "Produce", new { NameKind = item.TENLOAI })">
+                                <i class="bi bi-circle"></i><span>@item.TENLOAI</span>
+                            </a>
+                        </li>
+                    }
+                }
+            </ul>
+        </li><!-- End Forms Nav -->
+
+        <li class="nav-item">
+            <a class="nav-link collapsed" data-bs-target="#tables-nav" data-bs-toggle="collapse" href="#">
+                <i class="bi bi-layout-text-window-reverse"></i><span>Tìm theo giá</span><i class="bi bi-chevron-down ms-auto"></i>
+            </a>
+            <ul id="tables-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                <li>
+                    <a href="@Url.Action("FindInc","Produce")">
+                        <i class="bi bi-circle"></i><span>Giá cao dần</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="@Url.Action("FindDec","Produce")">
+                        <i class="bi bi-circle"></i><span>Giá thấp dần</span>
+                    </a>
+                </li>
+            </ul>
+        </li><!-- End Tables Nav -->
+
+        <li class="nav-item">
+            <a class="nav-link collapsed" data-bs-target="#charts-nav" data-bs-toggle="collapse" href="#">
+                <i class="bi bi-bar-chart"></i><span>Thông tin</span><i class="bi bi-chevron-down ms-auto"></i>
+            </a>
+            <ul id="charts-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                <li>
+                    <a href="@Url.Action("About","Home")">
+                        <i class="bi bi-circle"></i><span>Về chúng tôi</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="@Url.Action("Address","Home")">
+                        <i class="bi bi-circle"></i><span>Địa chỉ</span>
+                    </a>
+                </li>
+            </ul>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link collapsed" href="@Url.Action("Contact","Home")">
+                <i class="bi bi-gem"></i><span>Liên hệ</span>
+            </a>
+        </li>
+        @if (Session["USERACCOUNT"] != null)
+        {
+            <li class="nav-heading">Tài khoản người dùng</li>
+
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="@Url.Action("HomeUser","User", new {UserName = Session["USERACCOUNT"].ToString()})">
+                    <i class="bi bi-person"></i>
+                    <span>Tài khoản</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="@Url.Action("Index","HomeAdmin", new {area = "Admin", UserName = Session["USERACCOUNT"].ToString()})">
+                    <i class="bi bi-person"></i>
+                    <span>Tài khoản Admin</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="@Url.Action("ShowCart","Cart")">
+                    <i class="bi fa-thin fa-cart-arrow-down" style="color: #7f94b8;"></i>
+                    <span>Giỏ hàng</span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="@Url.Action("Order","Order")">
+                    <i class="bi bi-envelope"></i>
+                    <span>Đơn hàng</span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="@Url.Action("UpdateAccount","User", new {UserName = Session["USERACCOUNT"].ToString()})">
+                    <i class="bi bi-gear"></i>
+                    <span>Cập nhật thông tin</span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="@Url.Action("Logout","Account")">
+                    <i class="bi bi-box-arrow-right"></i>
+                    <span>Đăng xuất</span>
+                </a>
+            </li>
+        }
+    </ul>
+
+</aside><!-- End Sidebar-->
